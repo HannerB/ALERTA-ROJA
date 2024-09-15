@@ -1,0 +1,573 @@
+/* ----------------------------------------------------------------------- */
+/*  Appraxx DEMO 4 Responsive CSS */
+/*------------------------------------------------------------------------ */
+
+@media screen and (max-width: 1199px) {
+		
+	h1,
+	.app-download-content h2 {
+		font-size: 40px;
+	}
+
+	h5 {
+		font-size: 27px;
+	}
+
+	.slider-item {
+		height: 600px;
+	}
+
+	.banner-text {
+		padding-left: 0;
+	}
+
+	.banner-text h1,
+	.banner-text p {
+		margin-bottom: 25px;
+	}
+
+	.app-download-content h5 {
+		margin-bottom: 10px;
+		margin-top: 5px;
+	}
+
+	.app-download-content p {
+		margin-bottom: 5px;
+	}
+
+	.app-download-photo {
+		position: static;
+	}
+
+	.list-item-arrow li {
+		padding-left: 35px;
+	}
+
+	.customer-feedback .owl-prev {
+		left: 0;
+	}
+
+	.customer-feedback .owl-next {
+		right: 0;
+	}
+
+	.home-slider .owl-dots {
+		left: 50%;
+		right: auto;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+		top: auto;
+		bottom: 15px;
+		margin: 0;
+	}
+
+	.home-slider .owl-dots .owl-dot {
+		display: inline-block;
+		margin-bottom: 0;
+		margin-right: -6px;
+	}
+	
+	/*blog*/
+	.post-meta li {
+		font-size: 15px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+
+	.sm-no-margin {
+		margin: 0;
+	}
+
+	.sm-no-padding {
+		padding: 0;
+	}
+
+	.sm-no-float {
+		float: none !important;
+	}
+
+	.sm-no-position,
+	.slider-item .container .row,
+	.banner-text {
+		position: static;
+	}
+
+	.sm-text-center {
+		text-align: center;
+	}
+
+	.sm-no-flexbox {
+		display: block;
+	}
+
+	.nav li a,
+		.affix .nav li a {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.slider-item {
+		height: auto;
+	}
+
+	.banner-text {
+		padding: 200px 30px 140px;
+	}
+
+	.app-overview-content {
+		padding-bottom: 20px;
+		padding-top: 10px;
+		width: 70%;
+	}
+
+	.app-overview-icon {
+		width: 20%;
+	}
+
+	.app-lists-right .app-overview-icon {
+		margin-left: -5%;
+	}
+
+	.app-overiew-photo img {
+		margin-top: 0;
+	}
+
+	.video-area {
+		background-position: left 44% center;
+	}
+
+	.list-item-arrow {
+		width: 75%;
+		margin: 0 auto;
+	}
+
+	.owl-prev {
+		left: 0px;
+	}
+
+	.owl-next {
+		right: 0px;
+	}
+
+	.single-author {
+		padding: 45px 20px;
+	}
+
+	.fixed-social-bar {
+		left: 15px;
+	}
+
+	/*BLOG*/
+	.blog-left,
+	.blog-left-sidebar .blog-right {
+		padding-right: 15px;
+		padding-bottom: 30px;
+		margin-bottom: 35px;
+		border-bottom: 1px solid #f7f7f7;
+	}
+
+	.blog-left-sidebar .blog-left {
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+
+	.blog-right {
+		padding-left: 15px;
+	}
+
+	.blog-left,
+	.blog-right {
+		border-left: none !important;
+		border-right: none !important;
+	}
+
+	.blog-page .single-post figcaption {
+		width: 65%;
+	}
+
+	.blog-page .post-thumb {
+		width: 32%;
+	}
+	.post-details {
+		padding-left: 15px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+	.xs-no-margin {
+		margin: 0;
+	}
+
+	.xs-no-padding {
+		padding: 0;
+	}
+
+	.xs-no-position,
+	.fixed-social-bar {
+		position: static;
+	}
+
+	.xs-no-float,
+		.download-btn a {
+		float: none !important;
+	}
+
+	.xs-text-center {
+		text-align: center;
+	}
+
+	.xs-no-flexbox {
+		display: block;
+	}
+
+	.logo,
+	.affix .logo {
+		padding-top: 0;
+		padding-left: 20px;
+	}
+
+	.nav-bar {
+		padding: 12px 0;
+	}
+
+	.affix.nav-bar {
+		padding: 3px 0;
+	}
+
+	.banner-text .btn {
+		font-size: 18px;
+	}
+
+	/* MOBILE MENU*/
+	.nav-trigger {
+		-webkit-transition: all .4s;
+		transition: all .4s;
+	}
+	.nav-trigger i {
+		position: relative;
+		z-index: 999;
+		border: none;
+		font-size: 28px;
+		padding: 13px;
+		color: #fff;
+		display: inline-block;
+	}
+
+	.mobile-body .nav-trigger {
+		background-color: #ec3851;
+		border-radius: 50%;
+		height: 100px;
+		line-height: 110px;
+		position: fixed;
+		right: 15%;
+		text-align: center;
+		top: 50%;
+		width: 100px;
+		margin-top: -50px;
+		z-index: 9;
+	}
+
+	body.mobile-body {
+		position: relative;
+	}
+
+	body.mobile-body:after {
+		background: rgba(0, 0, 0, 0.7);
+		bottom: 0;
+		content: "";
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 10;
+	}
+
+	.navbar-collapse {
+		display: block;
+		position: fixed;
+		min-height: 100%;
+		top: 0;
+		bottom: 0;
+		left: -50%;
+		width: 50%;
+		bottom: 0;
+		-webkit-transition: all .3s linear;
+		transition: all .3s linear;
+		border: none;
+		background-color: #ec3851;
+	}
+
+	.navbar-collapse.mobile-show {
+		left: 0;
+		margin-right: 0;
+		padding-right: 0;
+	}
+
+	.nav {
+		margin: 0;
+	}
+
+	.nav li {
+		border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+	}
+
+	.nav li a,
+	.affix .nav li a {
+		padding: 15px 5px 15px 20px;
+	}
+
+	.nav li a:hover {
+		background-color: #303030;
+	}
+
+		/*Mobile SUBMENU*/
+		.nav li ul {
+			position: static;
+		}
+
+		.nav li:hover > ul {
+			display: none;
+		}
+
+		.nav li ul li {
+			border-top: 0px solid transparent;
+		}
+		.nav li ul li:last-child {
+			border-bottom: none;
+		}
+
+		.nav ul li a, .affix .nav ul li a {
+			padding: 10px 35px;
+			white-space: normal;
+		}
+
+		li.has-sub-menu > a {
+			position: relative;
+			width: calc(100% - 50px);
+		}
+		
+		li.has-sub-menu > a:after {
+			display: none;
+		}
+		li.has-sub-menu a + i {
+			color: #eee;
+			display: block;
+			position: absolute;
+			right: 0;
+			text-align: center;
+			top: 0;
+			width: 50px;
+			background-color: rgba(10, 10, 10, 0.54);
+			font-weight: 700;
+		}
+	/* END MOBILE MENU*/
+	
+	.app-overview-content {
+		width: 75%;
+		text-align: left;
+	}
+
+	.app-overview-icon {
+		width: 25%;
+		text-align: center;
+	}
+
+	.app-lists-left .app-overview-icon {
+		float: left !important;
+	}
+
+	.app-lists-right .app-overview-icon {
+		margin-left: 0;
+	}
+
+	.video-play-icon {
+		margin-bottom: 35px;
+	}
+
+	.download-btn a {
+		display: inline-block;
+		margin-right: 0 !important;
+	}
+
+	.single-author {
+		margin-top: 88px;
+	}
+
+	.field-one-third,
+	.field-one-second,
+	.field-one-third:nth-child(2) {
+		float: none;
+		width: 100%;
+		margin: 0 0 35px;
+	}
+
+	.footer-menu li a {
+		padding: 10px 6px;
+	}
+
+	.footer-area ul {
+		padding: 10px 0;
+	}
+
+	.fixed-social-bar li {
+		display: inline-block;
+		margin-bottom: 0;
+	}
+
+	.body-extra-class .fixed-social-bar .social-icons li i:hover {
+		margin-left: 0;
+	}
+
+	.subscribe-form input.form-control,
+	.subscribe-form button {
+		float: none;
+	}
+
+	.subscribe-form input.form-control {
+		border-radius: 40px;
+		margin: 0 auto 30px;
+		width: 90%;
+	}
+
+	.subscribe-form button {
+		margin-left: 0;
+	}
+
+	/*BLOG*/
+	.page-header-area {
+		min-height: 0;
+	}
+	.page-header {
+		padding-top: 20px;
+	}
+	.blog-container {
+		padding-top: 60px;
+	}
+	.blog-page .post-thumb {
+		width: 60%;
+		margin: 0 auto;
+	}
+	.single-post {
+		border-bottom: none;
+	}
+	.blog-page .single-post figcaption {
+		width: 100%;
+	}
+	.single-post {
+		padding: 40px 0;
+	}
+	.post-title {
+		font-size: 22px;
+		margin: 20px 0;
+	}
+	.post-extra {
+		text-align: left;
+	}
+	.social-share-post {
+		padding: 10px;
+		padding-bottom: 5px;
+	}
+	.social-share-post i {
+		font-size: 13px;
+	}
+	.social-share-post li {
+		padding-right: 3px;
+		padding-left: 3px;
+	}
+}
+
+@media screen and (max-width: 491px) {
+
+	.exs-no-float {
+		float: none !important;
+	}
+
+	.banner-text {
+		padding: 150px 0 100px;
+	}
+
+	.list-item-arrow {
+		width: 90%;
+	}
+
+	.btn-set a:first-child,
+	.btn-set .btn:first-child {
+		margin-right: 0;
+	}
+
+	.btn-set a {
+		max-width: 100%;
+		float: none;
+		margin: 10px auto;
+		display: inline-block;
+	}
+
+	#back-top {
+		bottom: 75px;
+		right: 0;
+	}
+
+	#back-top a i {
+		font-size: 22px;
+		padding: 10px;
+	}
+
+	/*BLOG*/
+	.blog-container {
+		padding-bottom: 40px;
+		padding-top: 45px;
+	}
+	.post-meta li,
+	.post-extra a:last-child {
+		display: block;
+		padding: 3px;
+	}
+	.blog-page .post-thumb {
+		width: 100%;
+	}
+	.post-meta li.pull-right:last-child {
+		text-align: right;
+	}
+	.reply-comments-list {
+		padding-left: 60px;
+	}
+	.comment-title {
+		font-size: 15px;
+		padding: 14px 12px 10px;
+	}
+	blockquote {
+		margin-left: 10px;
+	}
+	.post-content ul,
+	.post-content ol {
+		padding-left: 15px;
+	}
+	.reply-comments-list {
+		padding-left: 30px;
+	}
+	.pagination li a,
+	.pagination li.disabled a {
+		font-size: 14px;
+		padding: 10px 14px;
+	}
+	.post-meta li.pull-right:last-child {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 359px) {
+	.pager li a {
+		font-size: 14px;
+		padding: 9px 15px;
+	}
+	.comment-title {
+		font-size: 14px;
+	}
+	.comment-title span, .comment-time-ago {
+		font-size: 12px;
+	}
+}
