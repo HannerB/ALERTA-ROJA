@@ -332,10 +332,10 @@ li.has-sub-menu a + i {
 |----------------------------------------------------------------------------
 */
 
-.app-overview-area {
+/* .app-overview-area {
 	background-image: url('../img/demo-2/overview-bg.jpg');
 	background-attachment: fixed;
-}
+} */
 
 .app-overview-list-title {
 	font-weight: 400;
