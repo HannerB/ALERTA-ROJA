@@ -35,6 +35,21 @@ Version: 1.0
 /* 0. GENERAL
 /* ------------------------------------------------------------------ */
 
+.swal-popup {
+    width: 500px !important; /* Tamaño más grande del popup */
+    font-size: 1.5rem; /* Tamaño más grande del texto */
+}
+
+.swal-title {
+    font-size: 2rem; /* Tamaño más grande del título */
+}
+
+.swal-confirm-button, .swal-cancel-button {
+    font-size: 1.2rem; /* Tamaño más grande de los botones */
+    padding: 10px 20px; /* Más espacio en los botones */
+}
+
+
 .title-border {
 	position: relative;
 	display: inline-block;

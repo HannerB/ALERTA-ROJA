@@ -38,6 +38,11 @@
 	<!-- Stylesheet -->
 	<link rel="stylesheet" href="style.css">
 	<script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </head>
 
 <body>
@@ -62,7 +67,8 @@
 					<!--/end mobile menu icon -->
 					<!-- site logo -->
 					<div class="pull-left logo">
-						<a href="index.html"><img src="img\demo-2\logo.jpeg" alt="App Landing Page" height="62" width="65" style="border-radius: 15px;"></a>
+						<a href="index.html"><img src="img/demo-2/logo-splash.png" alt="App Landing Page" height="62"
+								width="65" style="border-radius: 15px;"></a>
 					</div>
 					<!--/end site logo -->
 				</div>
@@ -118,7 +124,8 @@
 										<div class="btn-set">
 											<a href="#" class="btn btn-round btn-transparent">
 												<i class="icofont icofont-brand-apple"></i>Apple Store</a>
-											<a href="assets/alertaAPK.apk" download="Alerta-Roja" class="btn btn-round btn-transparent"><i
+											<a href="assets/alertaAPK.apk" download="Alerta-Roja"
+												class="btn btn-round btn-transparent"><i
 													class="icofont icofont-brand-android-robot"></i>Play Store</a>
 										</div>
 									</div>
@@ -450,32 +457,38 @@
 				<div class="row">
 					<div class="col-md-offset-1 col-md-10">
 						<div class="contact-form clearfix">
-							<form action="index-2.html">
+							<form id="contactForm" action="mail.php" method="post">
 								<div class="contact-field field-one-third">
 									<label for="name" class="sr-only">Nombre: </label>
-									<input type="text" class="form-control" id="name" required="required"
+									<input type="text" class="form-control" id="name" name="name" required="required"
 										placeholder="Nombre Completo">
 								</div>
 								<div class="contact-field field-one-third">
 									<label for="email" class="sr-only">Correo Electrónico</label>
-									<input type="email" class="form-control" id="email" required="required"
+									<input type="email" class="form-control" id="email" name="email" required="required"
 										placeholder="Correo Electrónico">
 								</div>
 								<div class="contact-field field-one-third pull-right">
-									<label for="sub" class="sr-only">Asunto</label>
-									<input type="text" class="form-control" id="sub" required="required"
-										placeholder="Asunto">
+									<label for="telefono" class="sr-only">Teléfono</label>
+									<input type="number" class="form-control" id="telefono" name="telefono"
+										required="required" placeholder="Teléfono">
 								</div>
 								<div class="contact-field">
-									<label for="message" class="sr-only">Mensaje</label>
-									<textarea id="message" class="form-control" required="required"
+									<label for="mensaje" class="sr-only">Mensaje</label>
+									<textarea id="mensaje" name="mensaje" class="form-control" required="required"
 										placeholder="Tu Mensaje"></textarea>
 								</div>
 								<div class="text-center">
 									<button type="submit" class="btn btn-round btn-red btn-submit">Enviar</button>
 								</div>
 							</form>
+
+							<script>
+								
+							</script>
+
 						</div><!-- /End contact-form -->
+
 					</div><!-- /End col -->
 				</div><!-- /End row -->
 			</div><!-- /End container -->
@@ -495,7 +508,10 @@
 				<div class="row xs-text-center">
 					<div class="col-sm-5">
 						<div class="footer-left">
-							<p class="copyright-text">All Right Reserved &copy; 2024 | Alerta Roja - Developed by <a href="https://github.com/Josetapia23">Jose Tapia</a>, <a href="https://github.com/HannerB">Hanner Barros</a>, <a href="https://github.com/Kevin-Teran">Kevin Mariano</a>. </p>
+							<p class="copyright-text">All Right Reserved &copy; 2024 | Alerta Roja - Developed by <a
+									href="https://github.com/Josetapia23">Jose Tapia</a>, <a
+									href="https://github.com/HannerB">Hanner Barros</a>, <a
+									href="https://github.com/Kevin-Teran">Kevin Mariano</a>. </p>
 						</div>
 					</div><!-- /End col -->
 					<div class="col-sm-7">
@@ -547,6 +563,8 @@
 	<script src="js/common.js"></script>
 	<!-- Main-2 JS -->
 	<script src="js/main-2.js"></script>
+	<!-- SweetAlert -->
+	<script src="js/correo.js"></script>
 </body>
 
 </html>
